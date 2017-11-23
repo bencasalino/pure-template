@@ -1,0 +1,159 @@
+/*
+-FALLBACK DEFAULT STYLES
+-MOBILE VIEW
+-NAV STYLES
+-MAIN STYLES
+-ABOUT STYLES
+-CASE STUDIES
+-SKILLS
+-PORTFOLIO
+-CONTACT
+-FOOTER STYLES
+*/
+
+/* [begin/end][page location][view-type] */
+
+/* [begin][footer styles][tablet view] */
+
+/* fallbacks */
+
+body {
+    color: white;
+    background: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.cta {
+    border-radius: .4rem;
+    color: black;
+    font-size: .8rem;
+    margin: 1.4rem;
+    padding: .5rem 1rem .5rem 1rem;
+    border: solid #000000 .14rem;
+}
+
+.cta:hover {
+    background-color: black;
+    color: white;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* fallbacks */
+
+/* MOBILE VIEW */
+
+/* begin nav styles mobile  */
+
+nav {
+    background-color: white;
+    color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-title {
+    /*color: white;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: .6rem;
+}
+
+/* end nav stlyes mobile */
+
+/**/
+
+/* PARALLAX  */
+
+.parallax-container {
+    margin: auto;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.parrllax {}
+
+.hero {
+    z-index: -999;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    padding-top: 23.5rem;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Libre Baskerville", serif;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.about-me {
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: "Libre Baskerville", serif;
+    min-height: 10vh;
+    color: black;
+}
+
+.parent-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    min-height: 50vh;
+}
+
+.circle-me {
+    color: black;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.more-about-me {
+    color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.bio {
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    max-width: 30rem;
+}
+
+.resume {
+    padding: 1.6rem 0 2rem 0;
+}

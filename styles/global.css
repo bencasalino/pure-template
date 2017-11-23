@@ -1,0 +1,27 @@
+body {
+  color: #000000;
+  background-color: body wht;
+  font-family: 'Lato', sans-serif; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #ffffff; }
+
+.header-left {
+  padding-left: 1rem; }
+  .header-left .header-name {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #000000; }
+
+.header-right {
+  padding-right: 1rem;
+  color: #000000; }
+  .header-right a {
+    font-family: 'Lato', sans-serif;
+    color: #000000; }
+
+/*# sourceMappingURL=global.css.map */
