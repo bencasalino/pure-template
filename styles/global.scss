@@ -2,17 +2,14 @@
 // font-family: 'Lato', sans-serif;
 // font-family: 'Oswald', sans-serif;
 // font-family: 'Hind Madurai', sans-serif;
-
-
 $blk: #000000;
-$wht: #ffffff;
+$wht: #ffffff; // end fonts and color pallet
 
 body {
     color: $blk;
-    background-color: &wht;
+    background-color: $wht;
     font-family: 'Lato', sans-serif;
 }
-
 
 nav {
     display: flex;
@@ -20,23 +17,83 @@ nav {
     align-items: center;
     height: 10vh;
     background-color: $wht;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
+.logo {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
 
 .header-left {
     padding-left: 1rem;
+
     .header-name {
         font-size: 1.7rem;
         font-weight: 900;
         color: $blk;
     }
 }
+
 .header-right {
     padding-right: 1rem;
-            color: $blk;
+    color: $blk;
+
     a {
         font-family: 'Lato', sans-serif;
-            color: $blk;
+        color: $blk;
+    }
+}
 
+.nav-cta {
+    padding: 0.8rem;
+}
+
+.nav-cta:hover {
+    padding: 0.8rem;
+    color: red;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+}
+// end nav bar styles
+
+.above-the-fold {
+    display: flex;
+    flex-flow: row nowrap;
+    // justify-content: center;
+    justify-content: space-around;
+    // align-content: center;
+    height: 20vh;
+    margin-top: 2%;
+    // margin-left: 5%;
+    // margin-right: 5%;
+
+    .about-left {
+        // max-width: 25%;
+
+    }
+    .about-middle {
+        text-align: center;
+    //     min-width: 300px;
+    // justify-content: center;
+    }
+
+    .about-right {
+// min-width: 12rem;
     }
 }
